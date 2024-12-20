@@ -3,123 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Dịch Từ Tiếng Việt sang Tiếng Tày/Nùng</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Chuyển ngữ Tiếng Việt - Tày Nùng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            max-width: 600px;
-        }
-        h2 {
-            text-align: center;
-        }
-        .input-group {
-            margin-bottom: 20px;
-        }
-        .input-group input {
-            width: 100%;
-            padding: 10px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .suggestions {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            max-height: 150px;
-            overflow-y: auto;
-            border: 1px solid #ccc;
-            margin-top: 10px;
-            border-radius: 5px;
-        }
-        .suggestions li {
-            padding: 8px;
-            cursor: pointer;
-            border-bottom: 1px solid #ccc;
-        }
-        .suggestions li:hover {
-            background-color: #f0f0f0;
-        }
-        .output {
-            background-color: #f9f9f9;
-            padding: 10px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            font-size: 16px;
-            display: block;
-            margin: 0 auto;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
+        /* CSS styling here */
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Dịch Từ Tiếng Việt sang Tiếng Tày/Nùng</h2>
-        <form method="POST">
-            <div class="input-group">
-                <input type="text" id="text_input" name="text_input" placeholder="Nhập từ cần dịch..." autocomplete="off" oninput="getSuggestions()">
-            </div>
-            <ul id="suggestions_list" class="suggestions"></ul>
-            <div class="output">
-                {% if ket_qua %}
-                    <p><strong>Kết quả dịch:</strong> {{ ket_qua }}</p>
-                {% endif %}
-            </div>
+        <h1>Chuyển ngữ Tiếng Việt - Tày Nùng</h1>
+
+        <!-- Chế độ dịch -->
+        <label for="mode">Chế độ dịch:</label>
+        <select id="mode" name="mode">
+            <option value="vn_to_tn">Tiếng Việt → Tày Nùng</option>
+            <option value="tn_to_vn">Tày Nùng → Tiếng Việt</option>
+        </select>
+
+        <!-- Form nhập và dịch -->
+        <form method="POST" action="/">
+            <textarea name="text_input" id="text_input" rows="4" cols="50" placeholder="Nhập văn bản cần dịch..."></textarea><br>
             <button type="submit">Dịch</button>
         </form>
+
+        <div class="result">
+            <p><strong>Kết quả dịch:</strong></p>
+            <p>{{ ket_qua }}</p>
+        </div>
+
+        <!-- Gợi ý từ -->
+        <div class="suggestions">
+            <ul id="suggestion-list"></ul>
+        </div>
     </div>
 
     <script>
+        // Hàm để xử lý sự thay đổi chế độ dịch và lấy gợi ý từ
         function getSuggestions() {
-            const query = document.getElementById('text_input').value;
+            const query = $('#text_input').val();
+            const mode = $('#mode').val(); // Lấy chế độ hiện tại
 
-            // Kiểm tra nếu không có gì nhập thì không làm gì
-            if (query.length < 1) {
-                document.getElementById('suggestions_list').innerHTML = '';
-                return;
-            }
-
-            fetch(`/suggest?q=${query}`)
-                .then(response => response.json())
-                .then(data => {
-                    const suggestionsList = document.getElementById('suggestions_list');
-                    suggestionsList.innerHTML = '';
-
-                    data.suggestions.forEach(suggestion => {
-                        const li = document.createElement('li');
-                        li.textContent = suggestion;
-                        li.onclick = () => {
-                            document.getElementById('text_input').value = suggestion;
-                            document.getElementById('suggestions_list').innerHTML = '';
-                        };
-                        suggestionsList.appendChild(li);
+            if (query.length > 0) {
+                $.get(`/suggest?q=${query}&mode=${mode}`, function(data) {
+                    $('#suggestion-list').empty();
+                    data.suggestions.forEach(function(suggestion) {
+                        $('#suggestion-list').append(`<li class="suggestion-item">${suggestion}</li>`);
                     });
                 });
+            } else {
+                $('#suggestion-list').empty();
+            }
         }
+
+        // Khi nhập văn bản vào ô text_input, gọi hàm getSuggestions
+        $('#text_input').on('input', function() {
+            getSuggestions();
+        });
+
+        // Khi người dùng nhấn vào từ gợi ý, tự động điền vào ô text_input
+        $(document).on('click', '.suggestion-item', function() {
+            $('#text_input').val($(this).text());
+            getSuggestions();  // Gọi lại gợi ý khi đã chọn từ
+        });
+
+        // Khi thay đổi chế độ dịch, gọi lại getSuggestions
+        $('#mode').on('change', function() {
+            getSuggestions();
+        });
     </script>
 </body>
 </html>
