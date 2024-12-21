@@ -1,117 +1,101 @@
-/* Định dạng chung */
+/* Căn giữa toàn bộ giao diện */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
-
-/* Container chính */
 .container {
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 60%;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	background: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	width: 50%;
+	text-align: center;
 }
 
-/* Chọn chế độ dịch */
-.language-selector {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #333;
 }
 
-.language-selector select {
-    padding: 8px 12px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* Bộ chọn chế độ dịch */
+.language-toggle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 
-.language-selector button {
-    background-color: #0078d7;
-    color: white;
-    border: none;
-    padding: 8px 12px;
-    font-size: 14px;
-    border-radius: 5px;
-    cursor: pointer;
+.language-toggle span {
+	font-size: 18px;
+	margin: 0 15px;
 }
 
-.language-selector button:hover {
-    background-color: #005bb5;
+.language-toggle button {
+	background-color: #4caf50;
+	color: white;
+	font-size: 18px;
+	padding: 5px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 15px;
 }
 
-/* Ô nhập văn bản */
-.input-container {
-    position: relative;
+.language-toggle button:hover {
+	background-color: #45a049;
 }
 
-.input-box {
-    width: 100%;
-    min-height: 150px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 14px;
-    resize: none;
+.input-group,
+.output-group {
+	margin-top: 20px;
 }
 
-/* Danh sách gợi ý */
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	resize: none;
+}
+
+button#translate-button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+button#translate-button:hover {
+	background-color: #45a049;
+}
+
 .suggestions {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    max-height: 150px;
-    overflow-y: auto;
-    z-index: 1000;
+	margin-top: 10px;
+	text-align: left;
+	max-height: 13.8889vh;
+	overflow-y: auto;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	background: #f9f9f9;
 }
 
 .suggestion-item {
-    padding: 8px 12px;
-    cursor: pointer;
+	cursor: pointer;
+	padding: 5px;
 }
 
 .suggestion-item:hover {
-    background-color: #f0f0f0;
-}
-
-/* Nút dịch */
-.translate-button {
-    background-color: #28a745;
-    color: white;
-    font-size: 14px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    align-self: center;
-}
-
-.translate-button:hover {
-    background-color: #1e7e34;
-}
-
-/* Ô kết quả dịch */
-.output-box {
-    width: 100%;
-    min-height: 150px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 14px;
-    background-color: #f9f9f9;
+	background-color: #eaeaea;
 }
