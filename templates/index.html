@@ -3,73 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chuyển ngữ Tiếng Việt - Tày Nùng</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Trình Dịch Tiếng Việt ↔ Tày-Nùng</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        /* CSS styling here */
+        /* Căn giữa toàn bộ giao diện */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 50%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Bộ chọn chế độ dịch */
+        .language-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .language-toggle span {
+            font-size: 18px;
+            margin: 0 15px;
+        }
+
+        .language-toggle button {
+            background-color: #4caf50;
+            color: white;
+            font-size: 18px;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 15px;
+        }
+
+        .language-toggle button:hover {
+            background-color: #45a049;
+        }
+
+        .input-group, .output-group {
+            margin-top: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        button#translate-button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button#translate-button:hover {
+            background-color: #45a049;
+        }
+
+        .suggestions {
+            margin-top: 10px;
+            text-align: left;
+            max-height: 13.8889vh;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background: #f9f9f9;
+        }
+
+        .suggestion-item {
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .suggestion-item:hover {
+            background-color: #eaeaea;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Chuyển ngữ Tiếng Việt - Tày Nùng</h1>
+        <h1>Dịch Tiếng Việt ↔ Tày-Nùng</h1>
 
-        <!-- Chế độ dịch -->
-        <label for="mode">Chế độ dịch:</label>
-        <select id="mode" name="mode">
-            <option value="vn_to_tn">Tiếng Việt → Tày Nùng</option>
-            <option value="tn_to_vn">Tày Nùng → Tiếng Việt</option>
-        </select>
-
-        <!-- Form nhập và dịch -->
-        <form method="POST" action="/">
-            <textarea name="text_input" id="text_input" rows="4" cols="50" placeholder="Nhập văn bản cần dịch..."></textarea><br>
-            <button type="submit">Dịch</button>
-        </form>
-
-        <div class="result">
-            <p><strong>Kết quả dịch:</strong></p>
-            <p>{{ ket_qua }}</p>
+        <!-- Bộ chọn chế độ dịch -->
+        <div class="language-toggle">
+            <span id="language-from">Tiếng Việt</span>
+            <button id="switch-button">↔</button>
+            <span id="langua     ge-to">Tày/Nùng</span>
         </div>
 
-        <!-- Gợi ý từ -->
-        <div class="suggestions">
-            <ul id="suggestion-list"></ul>
+        <!-- Ô nhập văn bản -->
+        <div class="input-group">
+            <textarea id="text_input" placeholder="Nhập văn bản cần dịch..."></textarea>
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+
+        <!-- Nút dịch -->
+        <button id="translate-button">Dịch</button>
+
+        <!-- Ô kết quả -->
+        <div class="output-group">
+            <h3>Kết quả dịch:</h3>
+            <textarea id="result" readonly></textarea>
         </div>
     </div>
 
     <script>
-        // Hàm để xử lý sự thay đổi chế độ dịch và lấy gợi ý từ
-        function getSuggestions() {
-            const query = $('#text_input').val();
-            const mode = $('#mode').val(); // Lấy chế độ hiện tại
+        $(document).ready(function () {
+            let currentMode = 'vn_to_tn';
 
-            if (query.length > 0) {
-                $.get(`/suggest?q=${query}&mode=${mode}`, function(data) {
-                    $('#suggestion-list').empty();
-                    data.suggestions.forEach(function(suggestion) {
-                        $('#suggestion-list').append(`<li class="suggestion-item">${suggestion}</li>`);
-                    });
+            // Chuyển đổi chế độ dịch
+            $('#switch-button').click(function () {
+                if (currentMode === 'vn_to_tn') {
+                    currentMode = 'tn_to_vn';
+                    $('#language-from').text('Tày/Nùng');
+                    $('#language-to').text('Tiếng Việt');
+                } else {
+                    currentMode = 'vn_to_tn';
+                    $('#language-from').text('Tiếng Việt');
+                    $('#language-to').text('Tày/Nùng');
+                }
+
+                // Xóa gợi ý khi chuyển chế độ
+                $('#suggestions').empty().hide();
+            });
+
+            // Xử lý nút dịch
+            $('#translate-button').click(function () {
+                let text = $('#text_input').val().trim();
+
+                if (text === '') {
+                    alert('Vui lòng nhập văn bản cần dịch!');
+                    return;
+                }
+
+                $.ajax({
+                    url: '/',
+                    type: 'POST',
+                    data: {
+                        text_input: text,
+                        mode: currentMode
+                    },
+                    success: function (response) {
+                        if (response.ket_qua) {
+                            $('#result').val(response.ket_qua);
+                        } else {
+                            $('#result').val('Lỗi: Không nhận được kết quả từ server.');
+                        }
+                    },
+                    error: function () {
+                        $('#result').val('Lỗi: Không thể kết nối đến server.');
+                    }
                 });
-            } else {
-                $('#suggestion-list').empty();
-            }
-        }
+            });
 
-        // Khi nhập văn bản vào ô text_input, gọi hàm getSuggestions
-        $('#text_input').on('input', function() {
-            getSuggestions();
-        });
+            // Xử lý gợi ý
+            $('#text_input').on('input', function () {
+                let query = $(this).val().trim();
 
-        // Khi người dùng nhấn vào từ gợi ý, tự động điền vào ô text_input
-        $(document).on('click', '.suggestion-item', function() {
-            $('#text_input').val($(this).text());
-            getSuggestions();  // Gọi lại gợi ý khi đã chọn từ
-        });
+                if (query.length > 0) {
+                    $.getJSON('/suggest?q=' + query + '&mode=' + currentMode, function (data) {
+                        let suggestions = data.suggestions;
+                        let suggestionHtml = '';
+                        suggestions.forEach(function (suggestion) {
+                            suggestionHtml += `<div class='suggestion-item'>${suggestion}</div>`;
+                        });
+                        $('#suggestions').html(suggestionHtml).show();
+                    });
+                } else {
+                    $('#suggestions').hide();
+                }
+            });
 
-        // Khi thay đổi chế độ dịch, gọi lại getSuggestions
-        $('#mode').on('change', function() {
-            getSuggestions();
+            // Chọn gợi ý
+            $(document).on('click', '.suggestion-item', function () {
+                $('#text_input').val($(this).text());
+                $('#suggestions').hide();
+            });
+
+            // Ẩn gợi ý khi click bên ngoài
+            $(document).on('click', function (e) {
+                if (!$(e.target).closest('#suggestions, #text_input').length) {
+                    $('#suggestions').hide();
+                }
+            });
         });
     </script>
 </body>

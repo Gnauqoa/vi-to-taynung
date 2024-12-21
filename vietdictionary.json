@@ -80,10 +80,8 @@
     "nịu": [
         "ngón"
     ],
+    "mẻ/ nịu mẻ": ["ngón tay"],
     "nịu mừ": [
-        "ngón tay"
-    ],
-    "mẻ/ nịu mẻ": [
         "ngón cái"
     ],
     "nịu hỏi ": [
@@ -359,9 +357,14 @@
     "báo/chài": [
         "anh"
     ],
-    "pí/ slao/ á/ nhình ": [
+    "pí/ / á/ nhình ": [
         "chị"
     ],
+    "slao": ["chị"],
+    "á": ["chị"],
+    "nhình": ["chị"],
+
+
     "lục": [
         "con"
     ],
@@ -492,10 +495,10 @@
         "nồi"
     ],
     "Nghế Hếc ": [
-        "- chảo"
+        " chảo"
     ],
     "héc vài": [
-        "- chảo lớn"
+        " chảo lớn"
     ],
     "Nghế thuổi ": [
         "bát cơm"
