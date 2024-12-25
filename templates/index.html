@@ -4,10 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Trình Dịch Tiếng Việt ↔ Tày-Nùng</title>
-		<link rel="stylesheet" href="/static/style1.css" />
+		<link rel="stylesheet" href="/static/css/style1.css" />
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
+		<header class="header">
+			<div class="grid"></div>
+			<!-- begin nav -->
+			<ul id="nav">
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#band">Giới thiệu</a></li>
+				<li><a href="#tour">Lịch sử</a></li>
+				<li><a href="#contact">Văn hóa</a></li>
+				<li><a href="#more">Trang phục</a></li>
+			</ul>
+
+			<!-- end: nav -->
+		</header>
 		<div class="container">
 			<h1>Dịch Tiếng Việt ↔ Tày-Nùng</h1>
 
@@ -15,7 +28,7 @@
 			<div class="language-toggle">
 				<span id="language-from">Tiếng Việt</span>
 				<button id="switch-button">↔</button>
-				<span id="langua     ge-to">Tày/Nùng</span>
+				<span id="language-to">Tày/Nùng</span>
 			</div>
 
 			<!-- Ô nhập văn bản -->
@@ -99,24 +112,24 @@
 								suggestions.forEach(function (suggestion) {
 									suggestionHtml += `<div class='suggestion-item'>${suggestion}</div>`;
 								});
-								$("#suggestions").html(suggestionHtml).show();
+								$("#suggestions").html(suggestionHtml).addClass("show");
 							}
 						);
 					} else {
-						$("#suggestions").hide();
+						$("#suggestions").removeClass("show");
 					}
 				});
 
 				// Chọn gợi ý
 				$(document).on("click", ".suggestion-item", function () {
 					$("#text_input").val($(this).text());
-					$("#suggestions").hide();
+					$("#suggestions").removeClass("show");
 				});
 
 				// Ẩn gợi ý khi click bên ngoài
 				$(document).on("click", function (e) {
 					if (!$(e.target).closest("#suggestions, #text_input").length) {
-						$("#suggestions").hide();
+						$("#suggestions").removeClass("show");
 					}
 				});
 			});
