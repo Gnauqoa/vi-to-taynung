@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        /* Căn giữa toàn bộ giao diện */
+        /* Căn giữa giao diện */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
@@ -118,7 +118,7 @@
         <div class="language-toggle">
             <span id="language-from">Tiếng Việt</span>
             <button id="switch-button">↔</button>
-            <span id="langua     ge-to">Tày/Nùng</span>
+            <span id="language-to">Tày/Nùng</span>
         </div>
 
         <!-- Ô nhập văn bản -->
@@ -153,7 +153,9 @@
                     $('#language-to').text('Tày/Nùng');
                 }
 
-                // Xóa gợi ý khi chuyển chế độ
+                // Xóa nội dung ô nhập, kết quả và gợi ý
+                $('#text_input').val('');
+                $('#result').val('');
                 $('#suggestions').empty().hide();
             });
 
