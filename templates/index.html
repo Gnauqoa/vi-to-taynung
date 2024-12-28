@@ -13,35 +13,48 @@
   <header class="header">
     <img class="background" src="/static/imgs/T.png" />
     <div class="nav">
-      <p><a href="#">Trang chủ</a></p>
-      <p><a href="#band">Giới thiệu</a></p>
-      <p><a href="#tour">Lịch sử</a></p>
-      <p><a href="#contact">Văn hóa</a></p>
-      <p><a href="#more">Trang phục</a></p>
+      <a href="#">
+        <p>Trang chủ</p>
+      </a>
+      <a href="#band">
+        <p>Giới thiệu</p>
+      </a>
+      <a href="#tour">
+        <p>Lịch sử</p>
+      </a>
+      <a href="#contact">
+        <p>Văn hóa</p>
+      </a>
+      <a href="#more" ƒ>
+        <p>Trang phục</p>
+      </a>
     </div>
   </header>
-
   <div class="container">
-    <h1>Dịch Tiếng Việt ↔ Tày-Nùng</h1>
 
-    <div class="language-toggle">
-      <span id="language-from">Tiếng Việt</span>
-      <button id="switch-button">↔</button>
-      <span id="language-to">Tày/Nùng</span>
-    </div>
+    <div class="modal">
+      <p class="title">Dịch Tiếng Việt ↔ Tày-Nùng</p>
 
-    <div class="input-group">
-      <textarea id="text_input" placeholder="Nhập văn bản cần dịch..."></textarea>
-      <div id="suggestions" class="suggestions"></div>
-    </div>
+      <div class="language-toggle">
+        <span id="language-from">Tiếng Việt</span>
+        <button id="switch-button">↔</button>
+        <span id="language-to">Tày/Nùng</span>
+      </div>
 
-    <button id="translate-button">Dịch</button>
+      <div class="input-group">
+        <textarea id="text_input" placeholder="Nhập văn bản cần dịch..."></textarea>
+        <div id="suggestions" class="suggestions"></div>
+      </div>
 
-    <div class="output-group">
-      <h3>Kết quả dịch:</h3>
-      <textarea id="result" readonly></textarea>
+      <button id="translate-button">Dịch</button>
+
+      <div class="output-group">
+        <h3>Kết quả dịch:</h3>
+        <textarea id="result" readonly></textarea>
+      </div>
     </div>
   </div>
+
 
   <script>
     $(document).ready(function () {
