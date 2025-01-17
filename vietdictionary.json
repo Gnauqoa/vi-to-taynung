@@ -1,13 +1,13 @@
 {
-    "tiếng tày": "tiếng việt",
-    "thua ": "đầu",
+    "khua": ["cười"],
+    "thua": ["đầu"],
     "phjác ": [
         "trán"
     ],
     "thua lồm ": [
         "thái dương"
     ],
-    "phjôm": [
+    "xâm": [
         "tóc"
     ],
     "mại mại": [
@@ -16,7 +16,7 @@
     "xu ": [
         "tai"
     ],
-    "Đăng;": [
+    "đăng;": [
         "mũi"
     ],
     "pỉn xu": [
@@ -25,7 +25,7 @@
     "pác": [
         "miệng"
     ],
-    "cìm gàng/càng": [
+    "cìm gàng": [
         "cằm"
     ],
     "tha": [
@@ -46,7 +46,7 @@
     "khẻo ": [
         "răng"
     ],
-    "Hước ": [
+    "hước ": [
         "nướu"
     ],
     "pín tha ": [
@@ -58,13 +58,13 @@
     "cò": [
         "cổ"
     ],
-    "cò rù / cò lù ": [
+    "cò rù ": [
         "cổ họng"
     ],
     "rù": [
         "họng"
     ],
-    "mừng,mừ, ": [
+    "mừng ": [
         "tay"
     ],
     "fả mừ": [
@@ -76,7 +76,7 @@
     "nịu": [
         "ngón"
     ],
-    "mẻ/ nịu mẻ": ["ngón tay"],
+    "mẻ": ["ngón tay"],
     "nịu mừ": [
         "ngón cái"
     ],
@@ -92,28 +92,28 @@
     "Lăng": [
         "lưng"
     ],
-    "ấc/ ức,ấc,": [
+    "ấc": [
         "ngực"
     ],
-    "mốc/ tọng": [
+    "mốc": [
         "bụng"
     ],
-    "nả ức/ nả ấc": [
+    "nả ức": [
         "ức"
     ],
-    "mắc nùm / nồm": [
+    "mắc nùm ": [
         "vú"
     ],
-    "Đúc xang ": [
+    "đúc xang ": [
         "xương sườn"
     ],
     "xang": [
         "sườn"
     ],
-    "Đúc ": [
+    "đúc ": [
         "xương"
     ],
-    "đúc lăng/ đuc lẳng ": [
+    "đúc lăng": [
         "xương cột sống"
     ],
     "lăng": [
@@ -122,14 +122,13 @@
     "năng": [
         "da"
     ],
-    "Nựa ": [
+    "đựa ": [
         "thịt"
     ],
     "kha": [
-        "chân",
-        "khe"
+        "chân"
     ],
-    "hau/ pi kha": [
+    "hau": [
         "bắp đùi"
     ],
     "khau": [
@@ -147,13 +146,13 @@
     "nịu kha": [
         "ngón chân"
     ],
-    "lệp kha/ lịp kha": [
+    "lệp kha": [
         "móng chân"
     ],
     "Khuân": [
         "lông"
     ],
-    "khon kha/ khuân kha ": [
+    " khuân kha ": [
         "lông chân"
     ],
     "kha pu,": [
@@ -165,7 +164,7 @@
     "đúng đỉ,": [
         "rốn"
     ],
-    "quẩn/ củn": [
+    "quẩn": [
         "mông"
     ],
     "rim tàu": [
@@ -180,10 +179,10 @@
     "mạm": [
         "lá lách"
     ],
-    "pjì  / lào": [
+    "pjì": [
         "mỡ"
     ],
-    "nựa xịn/ nựa chinh": [
+    "nựa xịn": [
         "thịt nạc"
     ],
     "pứt": [
@@ -213,7 +212,7 @@
     "toọng muổng": [
         "dạ dày"
     ],
-    "đi;": [
+    "đi": [
         "mật"
     ],
     "rù xu": [
@@ -234,46 +233,49 @@
     "cò đửn": [
         "gáy"
     ],
-    "mác tha ": [
+    "mác tha": [
         "ngươi mắt"
     ],
-    "đúc cúm ": [
+    "đúc cúm": [
         "xương chậu"
     ],
-    "Pi kha ": [
+    "pi kha": [
         "bắp chân"
     ],
-    "nả khuất ": [
+    "nả khuất": [
         "mặt trước xương cẳng chân"
     ],
-    "Slù cuổn": [
+    "slù cuổn": [
         "hậu môn"
     ],
-    "p’kheoro ": [
-        "hàm răng trên/dưới"
+    "hàm răng lủng": [
+        "hàm răng trên"
     ],
-    "khuân tha ": [
+    "hàm răng lẻ": "[hàm răng dưới]",
+    "khuân tha": [
         "lông mi"
     ],
     "kiểu đăng ": [
         "sống mũi"
     ],
-    "Sljac lẹ ": [
+    "sljac lẹ ": [
         "nách"
     ],
-    "Mác páp": [
+    "mác páp": [
         "xương bánh chè"
     ],
-    "váng kha/ váng mừ": [
-        "kẽ ngón chân/ngón tay"
+    "váng kha": [
+        "kẽ ngón chân"
     ],
-    "lản kha": [
-        "mu chân/lòng bàn chân"
+    "kẻ ngón tay": ["váng mừ"],
+    "mó kha": [
+        "mu chân"
     ],
-    "Mác lùm  ": [
+    "lản kha": ["lòng bàn chân"],
+    "mác lùm  ": [
         "thận"
     ],
-    "cúng chộ/ cúng chỏ": [
+    "cúng chộ": [
         "ông tổ"
     ],
     "ung sựa ": [
@@ -282,85 +284,67 @@
     "dả sựa": [
         "bà cụ"
     ],
-    "pá/ anh/ chá": [
+    "pá": [
         "bố"
     ],
-    "mé/ á": [
+    "mé": [
         "mẹ"
     ],
     "ung": [
         "ông"
     ],
-    "dả ": [
-        "bà",
-        "bà nội"
+    "dả": [
+        "bà"
     ],
-    "ung ": [
-        "ông nội"
-    ],
-    "pỏ ké ": [
+    "pỏ ké": [
         "ông ngoại"
     ],
     "mẻ ké": [
         "bà ngoại"
     ],
     "bảc": [
-        "bác trai",
         "bác"
     ],
-    "Pả ": [
+    "pả": [
         "bác gái"
     ],
-    "Áo ": [
+    "áo": [
         "chú"
     ],
-    "a lùa , lùa ": [
+    "a lùa": [
         "thím"
     ],
-    "a ": [
+    "a": [
         "cô"
     ],
-    "sượng ": [
+    "sượng": [
         "dượng"
     ],
-    "bả , pá": [
-        "bá"
+    "cạu": [
+        "cậu"
     ],
-    "cạu ": [
-        "cậu (em trai mẹ)"
+    "mử": [
+        "mợ"
     ],
-    "mử / mứ": [
-        "mợ (vợ cậu)"
+    "na": [
+        "dì"
     ],
-    "nà / nả ": [
-        "dì (e gái mẹ)"
-    ],
-    "nà khươi/ sượng )": [
-        "dượng (chồng của dì)"
-    ],
-    "pì chài / pỉ sài ": [
+    "pì chài": [
         "anh trai"
     ],
-    "pỉ slao/ nhình ,": [
+    "pỉ slao": [
         "chị gái"
     ],
-    "nọong sài ": [
+    "nọong sài": [
         "em trai"
     ],
     "nọong slao": [
         "em gái"
     ],
-    "báo/chài": [
+    "chài": [
         "anh"
     ],
-    "pí/ / á/ nhình ": [
-        "chị"
-    ],
     "slao": ["chị"],
-    "á": ["chị"],
-    "nhình": ["chị"],
-
-
     "lục": [
         "con"
     ],
@@ -368,14 +352,12 @@
         "em"
     ],
     "bươn": [
-        "tôi"
+        "tháng"
     ],
     "lan": [
-        "cháu",
-        "cháu nội",
-        "cháu ngoại"
+        "cháu"
     ],
-    "lịn/ lỉn/ lẩn": [
+    "lịn": [
         "chắt"
     ],
     "lục đeng,": [
@@ -384,7 +366,7 @@
     "lục liệng": [
         "con nuôi"
     ],
-    "sựa, trọ": [
+    "sựa": [
         "cụ"
     ],
     "pỉ khươi,": [
@@ -432,37 +414,37 @@
     "phjua mìa": [
         "chồng vợ"
     ],
-    "Lườn  ": [
+    "rườn ": [
         "nhà"
     ],
-    "Tu/ tu cải": [
+    "tu cải": [
         "cửa ra vào"
     ],
-    "Tu, táng": [
+    "tu": [
         "cửa sổ"
     ],
     "tu nạ": [
         "cửa trước"
     ],
-    "Tu lăng": [
+    "tu lăng": [
         "cửa sau"
     ],
     "bàn": [
         "bàn"
     ],
     "tắng": [
-        "ghế/"
+        "ghế"
     ],
     "Tắng tảu ": [
         "ghế đẩu"
     ],
-    "sljanSlàng ": [
+    "sljan": [
         "giường"
     ],
     "đây": [
         "cầu thang"
     ],
-    "các, khỉnh=lên": [
+    "các": [
         "gác"
     ],
     "lườn phầy": [
@@ -471,78 +453,76 @@
     "pjỉnh phjầy": [
         "bếp"
     ],
-    "cháo, kiềng ": [
+    "kiềng": [
         "kiềng"
     ],
     "pjiet nặm": [
         "vại nước"
     ],
     "áng": [
-        "bát",
-        "tô"
+        "bát"
     ],
-    "Tung Sli ": [
+    "tung sli": [
         "cầu tiêu"
     ],
-    "Phụt ": [
+    "phụt": [
         "chiếu"
     ],
-    "Nghế mổ ": [
+    "mỏ": [
         "nồi"
     ],
-    "Nghế Hếc ": [
+    "nghế Hếc": [
         " chảo"
     ],
     "héc vài": [
         " chảo lớn"
     ],
-    "Nghế thuổi ": [
+    "nghế thuổi": [
         "bát cơm"
     ],
-    "Thuổi ủn ": [
+    "thuổi ủn": [
         "bát canh"
     ],
-    "Thú ": [
+    "thú ": [
         "đũa"
     ],
-    "Tỉu keng ": [
+    "tỉu keng ": [
         "thìa"
     ],
-    "Pừn ": [
+    "pừn": [
         "thau"
     ],
-    "Chộc ": [
-        "cối xay",
-        "cối giã"
+    "chộc": [
+        "cối xay"
     ],
     "Slác ": [
         "chày"
     ],
-    "Môi ": [
+    "môi": [
         "muôi múc canh"
     ],
-    "Pjạ ": [
+    "pjạ": [
         "dao"
     ],
-    "Pjạ sliểm ": [
+    "Pjạ sliểm": [
         "dao nhọn"
     ],
-    "Pjạ bỏong ": [
+    "Pjạ bỏong": [
         "dao chuôi (liền chuôi sắt đánh thành ống)"
     ],
-    "Pjạ căp ": [
+    "Pjạ căp": [
         "dao nhíp"
     ],
     "Pja cúp": [
         "dao rựa"
     ],
-    "Pja kho ": [
+    "Pja kho": [
         "dao quắm"
     ],
-    "Pja lẹ ": [
+    "Pja lẹ": [
         "dao mấu"
     ],
-    "Pja phay ": [
+    "Pja phay": [
         "dao phay"
     ],
     "Pja quạng": [
@@ -551,57 +531,58 @@
     "Pja xính": [
         "dao găm"
     ],
-    "Thản ": [
+    "Thản": [
         "bàn thờ"
     ],
-    "Khiêng ": [
+    "Khiêng": [
         "thớt"
     ],
     "Chá": [
-        "kệ, giá( đồ dùng để vật dụng trong gia đình )"
+        "kệ, giá"
     ],
-    "Slâu ": [
+    "slâu": [
         "cột"
     ],
-    "Thủng ": [
+    "thủng": [
         "cái rổ"
     ],
-    "Pèo ": [
+    "pèo": [
         "gáo múc nước"
     ],
-    "Phà/ fjả ": [
-        "cái chăn"
+    "phà": [
+        "chăn"
     ],
-    "Slứt / rjứt": [
+    "slứt": [
         "cái màn"
     ],
-    "Sljut)": [
-        "(mùng)"
+    "sljut": [
+        "mùng"
     ],
-    "Bóoc lò hương  buốc hương ": [
+    "bóoc lò hương": [
         "lư hương"
     ],
-    "theo hương ": [
+    "theo hương": [
         "cây nhang"
     ],
-    "chẻn ": [
-        "cái ly/chén"
+    "chẻn": [
+        "cái ly"
     ],
-    "mảc cuốc, mảc bai, mác quà,": [
+    "mảc cuốc": [
         "cái cuốc"
     ],
-    "Nhù Quét ": [
+    "nhù quét": [
         "cái chổi"
     ],
-    "mảc  qjuà ": [
+    "mảc qjuà ": [
         "cào phơi lúa"
     ],
     "mảc rí lịp": [
         "cái cào"
     ],
     "xe đạp ": [
-        "xe đạp/máy"
+        "xe đạp"
     ],
+    "xe máy": ["xe máy"],
     "ô tô ": [
         "ô tô"
     ],
@@ -611,13 +592,14 @@
     "da sát khẻo": [
         "kem đánh răng"
     ],
-    "ấnts khẻo": [
+    "lược chải sát khẻo": [
         "bàn chải đánh răng"
     ],
-    "khóa/slử,": [
-        "quần/áo"
+    "khóa": [
+        "quần"
     ],
-    "cài. tôi hái ": [
+    "slử": ["áo"],
+    "cài tôi hái ": [
         "dép"
     ],
     "cài phải": [
@@ -626,57 +608,55 @@
     "Đảm": [
         "đũa cả"
     ],
-    "Hài ổng ": [
+    "Hài ổng": [
         "giầy ủng"
     ],
-    "Mạat mừng ": [
+    "mạat mừng": [
         "găng tay"
     ],
-    "Mạat kha ": [
+    "mạat kha": [
         "bít tất"
     ],
-    "Hài năng , hái năng ": [
+    "hài năng": [
         "giầy da"
     ],
-    "các khứ , các fỉn fjầy": [
+    "các khứ": [
         "gác bếp"
     ],
-    "lạng pát, sạn pát ": [
-        "chạn bát"
-    ],
-    "f jài ngọa ": [
+    "f jài ngọa": [
         "mái ngói"
     ],
-    "rườn tôm ": [
-        "nhà đất (nhà trình tường)"
+    "rườn tôm": [
+        "nhà đất "
     ],
-    "rườn mạy ": [
+    "rườn mạy": [
         "nhà gỗ"
     ],
     "rườn sạn": [
         "nhà sàn"
     ],
-    "lang , lậu": [
+    "lang": [
         "chuồng"
     ],
-    "lang vài ": [
+    "lang vài": [
         "chuồng trâu"
     ],
-    "lang mò ": [
+    "lang mò": [
         "chuồng bò"
     ],
-    "cọoc mu ": [
+    "lang mu": [
         "chuồng heo"
     ],
     "lậu cáy": [
         "chuồng gà"
     ],
-    "lậu pjết ": [
+    "lậu pjết": [
         "chuồng vịt"
     ],
-    "súng cáy, súng pjết ": [
-        "lồng gà vịt"
+    "súng pjết": [
+        "lồng  vịt"
     ],
+    "súng cá": ["lồng gà"],
     "phừn ": [
         "củi"
     ],
@@ -692,13 +672,13 @@
     "kin lẩu": [
         "uống rượu"
     ],
-    "kin lèng ": [
+    "kin lèng": [
         "ăn cơm sáng"
     ],
-    "kin ngài ": [
+    "kin ngài": [
         "ăn cơm trưa"
     ],
-    "kin fjầu ": [
+    "kin fjầu": [
         "ăn cơm tối"
     ],
     "kin nặm": [
@@ -723,8 +703,7 @@
         "đường ăn"
     ],
     "thương khao": [
-        "đường kính",
-        "đường kính trắng"
+        "đường trắng"
     ],
     "thương đeng": [
         "đường đỏ"
@@ -772,21 +751,21 @@
         "cải cúc"
     ],
     "cát kheo": [
-        "cải xanh, cải bẹ"
+        "cải xanh"
     ],
-    "phjắc xèn/ phjắc đạm": [
+    "phjắc xèn": [
         "rau má"
     ],
     "phjắc nhiệp": [
         "rau diếp"
     ],
-    "phjắc vặc/ phjắc phặc": [
+    "phjắc vặc": [
         "rau bí"
     ],
     "phjắc cát xoong": [
         "rau cải xoong"
     ],
-    "phjắc diển/ khau hương": [
+    "phjắc diển": [
         "rau bò khai"
     ],
     "phjắc bón": [
@@ -795,7 +774,7 @@
     "phjắc ỏ": [
         "rau cần"
     ],
-    "phjắc dền/ phjắc hôm/ khảu úm": [
+    "phjắc dền": [
         "rau dền"
     ],
     "sung búa": [
@@ -846,7 +825,7 @@
     "thúa cà lán": [
         "đậu hà lan"
     ],
-    "thúa tâm ": [
+    "thúa tâm": [
         "lạc"
     ],
     "tấy": [
@@ -895,7 +874,7 @@
         "quả dâu da"
     ],
     "mác mặt": [
-        "quả quất hồng bì",
+
         "quả mác mật"
     ],
     "mác cam chỉa": [
@@ -938,7 +917,7 @@
         "quả mua"
     ],
     "mác muổng": [
-        "quả muỗm (xoài)"
+        "quả xoài"
     ],
     "mác mỉ": [
         "quả mít"
@@ -1030,7 +1009,7 @@
     "mạy": [
         "măng"
     ],
-    "mạy rẩm, mảy rlổm": [
+    "mạy rẩm": [
         "măng chua"
     ],
     "mạy lạp": [
@@ -1090,7 +1069,7 @@
     "co khinh": [
         "cây gừng"
     ],
-    "kháng mỉn/ khác mỉn": [
+    "kháng mỉn": [
         "nghệ"
     ],
     "phjặc đeng": [
@@ -1166,7 +1145,7 @@
     "nặm": [
         "nước"
     ],
-    "bố nặm/ cốc bó": [
+    "cốc bó": [
         "nguồn nước"
     ],
     "bố": [
@@ -1175,25 +1154,25 @@
     "bó": [
         "mỏ"
     ],
-    "bố nặm/ bó nặm": [
+    "bố nặm": [
         "mỏ nước"
     ],
     "mjoóc": [
         "sương"
     ],
-    "tâm/ toôm": [
+    "tâm": [
         "đất"
     ],
     "phja": [
         "núi"
     ],
-    "khau/ đỏng ": [
+    "Khau": [
         "đồi"
     ],
-    "ruôn/ phjươn": [
+    "ruôn": [
         "vườn"
     ],
-    "tản/ thích": [
+    "tản": [
         "đá"
     ],
     "thâm pja": [
@@ -1206,8 +1185,7 @@
         "ruộng"
     ],
     "rẩy": [
-        "rẫy",
-        "nương"
+        "rẫy"
     ],
     "lẹng chẩu": [
         "chào"
@@ -1224,7 +1202,7 @@
     "phân mẫn": [
         "mưa phùn"
     ],
-    "pâm/ phjp/ đướt": [
+    "pâm": [
         "nóng"
     ],
     "dân": [
@@ -1239,7 +1217,7 @@
     "mác thấp": [
         "mưa đá"
     ],
-    "phạ lểng/ phạ lẹng": [
+    "phạ lểng": [
         "hạn hán"
     ],
     "phjân cải": [
@@ -1260,7 +1238,7 @@
     "mền phạ,": [
         "mây"
     ],
-    "nặm nôồng/ nặm nòong": [
+    "nặm nôồng": [
         "lũ lụt"
     ],
     "mươi khao": [
@@ -1275,7 +1253,7 @@
     "lồm phjặt phjeo": [
         "gió lớn"
     ],
-    "phjân đoi/ phjân đôi": [
+    "phjân đoi": [
         "mưa ngâu"
     ],
     "phjân loạt rảo": [
@@ -1299,7 +1277,7 @@
     "tha vằn lồng": [
         "mặt trời lặn"
     ],
-    "pửa pài, pài cẳm": [
+    "pửa pài": [
         "hoàng hôn"
     ],
     "nâư sạu": [
@@ -1311,19 +1289,19 @@
     "rạp rủng": [
         "gần sáng"
     ],
-    "cáy găn, cáy khăn": [
+    "cáy găn": [
         "gà gáy"
     ],
     "pửa ngài": [
         "buổi trưa"
     ],
-    "chang vằn": [
+    "tằng pài": [
         "buổi chiều"
     ],
     "phjả đổng phjân đét": [
         "vừa nắng vừa mưa"
     ],
-    "rủng": [
+    "chạu": [
         "sáng"
     ],
     "phjả khăm": [
@@ -1444,8 +1422,8 @@
     "cươm khẩu": [
         "nấu cơm"
     ],
-    "tỏm nặm, pjắc nặm": [
-        "náu nước"
+    "tỏm nặm": [
+        "nấu nước"
     ],
     "chen xáy": [
         "chiên trứng"
@@ -1456,7 +1434,7 @@
     "pjỉn pjia": [
         "nướng cá"
     ],
-    "khả cáy, khả pết, khả mu": [
+    "khả cáy": [
         "giết thịt gà,"
     ],
     "khả pết": [
@@ -1592,8 +1570,7 @@
         "chăn lợn"
     ],
     "khun cáy": [
-        "chăn gà",
-        "chăn vịt"
+        "chăn gà"
     ],
     "hen vài": [
         "chăn trâu"
@@ -1640,8 +1617,8 @@
     "pây": [
         "đi"
     ],
-    "slửa khóa": [
-        "áo quần"
+    "slửa ": [
+        "áo"
     ],
     "cặp": [
         "bắt"
@@ -1652,13 +1629,13 @@
     "khang rứt": [
         "thả màn"
     ],
-    "hấm pjả/ hốm pjả": [
+    "hấm pjả": [
         "đắp chăn"
     ],
     "phjăn cừn": [
         "nằm mơ"
     ],
-    "phjái/ phjục": [
+    "phjái": [
         "trải chiếu"
     ],
     "tha bẩư,": [
@@ -1667,7 +1644,7 @@
     "thjẻo đua": [
         "tỉnh giấc"
     ],
-    "nòn khỏ/ nòn mì đắc,": [
+    "nòn khỏ": [
         "khó ngủ"
     ],
     "pji dăm đé": [
@@ -1679,19 +1656,19 @@
     "nòn ón": [
         "ngủ mê mệt"
     ],
-    "đửa": [
+    "nưới": [
         "mệt"
     ],
-    "mì rềng, mì rèng": [
+    "mì rềng": [
         "khỏe"
     ],
-    "ón ín": [
+    "nết nưới": [
         "mệt mỏi"
     ],
     "kha nất": [
         "mỏi chân"
     ],
-    " kha nái/ kha ón": [
+    " kha nái": [
         "mỏi gối"
     ],
     "lăng chjếp": [
@@ -1760,7 +1737,7 @@
     "au": [
         "lấy"
     ],
-    "au lùa/ au mẻ": [
+    "au lùa": [
         "lấy vợ"
     ],
     "au khươi": [
@@ -1796,15 +1773,13 @@
     "au căn": [
         "lấy nhau"
     ],
-    "pjá căn, tả căn": [
+    "pjá căn": [
         "bỏ nhau"
     ],
     "pjá": [
-        "bỏ",
         "trả"
     ],
     "thả": [
-        "đợi, chờ",
         "đợi"
     ],
     "ké/kể": [
@@ -1858,10 +1833,10 @@
     "rặp noọng": [
         "đón em"
     ],
-    "thả chài, thả báo": [
+    "thả chài": [
         "đợi anh"
     ],
-    "ngoòng, ngâừ": [
+    "ngoòng": [
         "mong"
     ],
     "lồm": [
@@ -1880,26 +1855,25 @@
         "xin tiền"
     ],
     "đá": [
-        "chửi ",
-        "mắng"
+        "chửi "
     ],
     "đá rèng": [
         "chửi to"
     ],
-    "nện, tệnh": [
+    "nện": [
         "đánh"
     ],
     "phja phje": [
         "tát"
     ],
-    "tăm / tjệnh": [
+    "tăm": [
         "đấm"
     ],
     "cót mắn": [
         "ôm chặt"
     ],
     "pjéc oóc": [
-        "can ra, ngăn ra"
+        "ngăn ra"
     ],
     "trỏ oóc": [
         "đẩy ra"
@@ -2114,10 +2088,10 @@
     "rjảo roạc": [
         "tháo vát"
     ],
-    "cường lai/ tài tảm": [
+    "cường lai": [
         "gan dạ"
     ],
-    "đây rjao/ đây slao": [
+    "đây rjao": [
         "đẹp gái"
     ],
     "đây báo": [
@@ -2139,7 +2113,7 @@
         "bị lừa"
     ],
     "quai lình": [
-        "sống lỏi hoặc khôn lỏi"
+        "khôn lỏi"
     ],
     "mốc kho, rjẩy kho": [
         "hay giận dỗi"
@@ -2148,13 +2122,12 @@
         "ấp úng"
     ],
     "pác nẩư": [
-        "mau miệng",
-        "nhanh miệng"
+        "mau miệng"
     ],
     "mốc rjẩy đây": [
         "hiền lành"
     ],
-    "mốc phjôm, gò lồng": [
+    "mốc phjôm": [
         "hài lòng"
     ],
     "hí": [
@@ -2214,7 +2187,7 @@
     "nòn": [
         "ngủ"
     ],
-    "pjác  oôm re": [
+    "pjác oôm re": [
         "câm như miệng hến"
     ],
     "su rỉnh": [
@@ -2310,7 +2283,7 @@
     "dàu dít": [
         "thẳng đuột"
     ],
-    "quột ngjang, quột kjẻo": [
+    "quột ngjang": [
         "cong queo"
     ],
     "phjẹp": [
@@ -2328,7 +2301,7 @@
     "mần": [
         "tròn"
     ],
-    "mần léng/ mần lít": [
+    "mần léng": [
         "tròn vo"
     ],
     "đêu": [
@@ -2385,7 +2358,7 @@
     "nhỉ slíp": [
         "hai mươi"
     ],
-    "quoa đều/ woa đều": [
+    "quoa đều": [
         "một sải tay"
     ],
     "giàng đều": [
@@ -2448,9 +2421,6 @@
     "rjằm khẩu": [
         "cám gạo"
     ],
-    "cao": [
-        "bánh khảo"
-    ],
     "pjẻng đắng": [
         "bánh tro"
     ],
@@ -2470,18 +2440,1591 @@
         "ngày"
     ],
     "za": [
-        "thuốc"
+        "thuốc"],
+    "Bươn chiêng ": [
+        "mùa xuân"
     ],
-    "là con chó": [
-        "huy"
+    "bjooc mai": [
+        "hoa mai"
     ],
-    "là thằng đẹp trai": [
-        "vũ đạt"
+    "pi cáu": [
+        "năm cũ"
     ],
-    "là thằng điên": [
+    "pi máư ": [
+        "năm mới "
+    ],
+    "mà": [
+        "về"
+    ],
+    "quá": [
+        "qua"
+    ],
+    "bại ": [
+        "mọi người"
+    ],
+    "khần ": [
+        "cùng nhau"
+    ],
+    "hoan hỉ": [
+        " hoan hỉ"
+    ],
+    "đuổi": [
+        "tạo"
+    ],
+    "đuổi căn hoan hỉ": [
+        "hoan hỉ"
+    ],
+    "căn": [
         "sự"
     ],
-    " là thằng béo": [
-        "phương"
-    ]
+    "hét cin khẩn phật phật a": [
+        "làm ăn ngày một đi lên"
+    ],
+    "pi máư mà": [
+        " năm mới đến"
+    ],
+    "khần boong lầu": [
+        "người dân mình"
+    ],
+    " lầu": [
+        "mình"
+    ],
+    "vằn viủc": [
+        "ngày mai"
+    ],
+    " vằn lừ": [
+        "ngày mốt"
+    ],
+    "Hét kin": [
+        "làm ăn"
+    ],
+    "thòng cò": [
+        "đoàn kết"
+    ],
+    "đuổi căn": [
+        "với nhau"
+    ],
+    "hét kin thòng cò đuổi căn": [
+        "làm ăn đoàn kết với nhau"
+    ],
+    "mì": [
+        "có"
+    ],
+    " dủng": [
+        "dùng"
+    ],
+    "khảu mì cin, sièn mì dủng": [
+        "gạo có ăn tiền có dùng"
+    ],
+    "bjooc ngâu": [
+        "hoa sen"
+    ],
+    "đaư mại": [
+        "trong tất cả"
+    ],
+    "thình": [
+        "thứ"
+    ],
+    "đaư mại thình": [
+        "trong tất cả mọi thứ "
+    ],
+    "tềng": [
+        "trên"
+    ],
+    "tỉ fạ": [
+        "cuộc đời"
+    ],
+    "nưa tỉ fạ": [
+        "trên đời"
+    ],
+    "co bjooc": [
+        "loài hoa"
+    ],
+    "đay nhất": [
+        "đẹp nhất"
+    ],
+    " vừa": [
+        " vừa"
+    ],
+    "hom tẻo": [
+        "thơm tho"
+    ],
+    "slâư sloóng": [
+        "sạch sẽ"
+    ],
+    "vừa hom tẻo vừa slâư sloóng": [
+        "vừa thơm tho lại vừa sạch sẽ "
+    ],
+    "thòng": [
+        "giống"
+    ],
+    "tua": [
+        "Con người"
+    ],
+    "chân thật": [
+        "chân thật"
+    ],
+    "Việt Nam": [
+        "việt Nam"
+    ],
+    "Đaư mại thình nưa tỉ fạ": [
+        "trong tất cả mọi thứ trên đời"
+    ],
+    "bản rườn": [
+        "bản làng"
+    ],
+    "bươn chắt slip slí": [
+        "rằm tháng bảy"
+    ],
+    "bươn chắt slip slí bản rườn": [
+        "rằm tháng bảy khắp bản làng"
+    ],
+    "cin nựa pắt hắt, cin khẩn pi bươn": [
+        "ăn thịt vịt làm ăn vươn lên"
+    ],
+    "lục đéch": [
+        "trẻ con"
+    ],
+    "mà tai": [
+        "thăm ngoại"
+    ],
+    "dú": [
+        "ở"
+    ],
+    "roọng": [
+        "gọi"
+    ],
+    "dú cay lục đéch mà tai": [
+        "ở xa trẻ con về thăm ngoại"
+    ],
+    "khần khần hoan hỉ roọng tương lai": [
+        "mọi người hoan hỉ gọi tương lai"
+    ],
+    "tương lai": [
+        "tương lai"
+    ],
+    "khần boong": [
+        "người dân"
+    ],
+    "hây từ": [
+        "từ ngày"
+    ],
+    "vằn độc lập": [
+        "ngày độc lập"
+    ],
+    "vằn": [
+        "hằng ngày"
+    ],
+    "Khần boong hây từ vằn độc lập":["người dân mình từ ngày độc lập"],
+    "rườn": [
+        "nhà"
+    ],
+    "đảy dú": [
+        "sống tốt"
+    ],
+    "sống đẹp": [
+        "đay dú đớ"
+    ],
+    "Rườn rườn đảy dú đay dú đớ": [
+        "nhà nhà sống tốt sống đẹp"
+    ],
+    "đay dú đớ": ["sống đẹp"],
+    "Dù khỏ khăn vận nhằng mì tói nả": [
+        "dù khó khăn còn ở phía trước"
+    ],
+    "khỏ khăn": [
+        "khó khăn"
+    ],
+    "": [""],
+    "vận nhằng": [
+        "còn ở"
+    ],
+    "mì tói nả": [
+        "phía trước"
+    ],
+    "Vận mại mại": [
+        "Vẫn mãi mãi"
+    ],
+    "tin tưởng": [
+        "tin tưởng"
+    ],
+    "Nhà nưởc ta": [
+        "nhà nước ta"
+    ],
+    "nưởc": ["nước"],
+    "Vận mại mại tin tưởng Nhà nưởc ta": [
+        "Vẫn mãi mãi tin tưởng nhà nước ta"
+    ],
+    "Bươn chiêng bjooc mai khay": [
+        "mùa xuân hoa mai nở"
+    ],
+    "mì mò": [
+        "có không"
+    ],
+    "nè": [
+        "này"
+    ],
+    "pây pại": [
+        "đi kìa"
+    ],
+    "óoc nọoc": [
+        "ra kia"
+    ],
+    "im me pây": [
+        "im mẹ đi"
+    ],
+    "phưới zá": [
+        "nói rồi"
+    ],
+    "chầm": [
+        "xem"
+    ],
+    "mì zá": [
+        "có rồi"
+    ],
+    "trấu lai": [
+        "nói nhiều"
+    ],
+    "ho": [
+        "gói"
+    ],
+    "nòn pay": [
+        "ngủ đi"
+    ],
+    "trấu nọi": [
+        "nói ít"
+    ],
+    "bú nòn đáy": [
+        "không ngủ được"
+    ],
+    "kí lai": [
+        "bao nhiêu"
+    ],
+    "tưn": [
+        "dậy"
+    ],
+    "né": [
+        "kia"
+    ],
+    "zu nạy": [
+        "ở đây"
+    ],
+    "phà": ["chăn"],
+    "bố chư": [
+        "không biết"
+    ],
+    "đảm bái": [
+        "đám cưới"
+    ],
+    "kháy": [
+        "trứng"
+    ],
+    "lẹo": [
+        "hết"
+    ],
+    "đông ha nọong": [
+        "trong mắt"
+    ],
+    "hảy": [
+        "khóc"
+    ],
+    "phắc tu": [
+        "cửa"
+    ],
+    "tồng căn": [
+        "giống nhau"
+    ],
+    "chại": [
+        "chiều"
+    ],
+    "ẻm": [
+        "tí"
+    ],
+    "mà nậy nè": [
+        "về đây nè"
+    ],
+    "ngoan": [
+        "ngon"
+    ],
+    "pây bái": [
+        "đi cưới"
+    ],
+    "nung": [
+        "xỏ"
+    ],
+    "bù mì": [
+        "không có"
+    ],
+    "mừng": [
+        "mày"
+    ],
+    "mừa lườn": [
+        "về nhà"
+    ],
+    "Mùa hè tèo mà ": [
+        "Mùa hè lại đến "
+    ],
+    "Mà lại trường káu ": [
+        "Về lại trường xưa"
+    ],
+    "Mì tua học trò": [
+        "Có cô học trò"
+    ],
+    "Mì tua": [
+        "có cô"
+    ],
+    "Lai slày dường đảy kí": [
+        "Bao nhiêu kỉ niệm "
+    ],
+    "Tòo mà theo pần cơn": [
+        "Bỗng chợt ùa về"
+    ],
+    "Vận pá slon káu": [
+        "Vẫn lớp học cũ"
+    ],
+    "Vận tắng chòong káu": [
+        "Vẫn bàn ghế xưa "
+    ],
+    "Tiểng cô giáo dạy slưa": [
+        "Tiếng cô giáo giảng "
+    ],
+    "cô giáo": [
+        "cô giáo"
+    ],
+    "Tà mí mì dá ": [
+        "Nhưng chẳng còn nữa"
+    ],
+    "Pjang bạn mủ quẩy": [
+        "Đám bạn tinh nghịch"
+    ],
+    "Pjang": [
+        "đám"
+    ],
+    "Pjang bạn": [
+        "Đám bạn"
+    ],
+    "mủ quẩy": [
+        "tinh nghịch"
+    ],
+    "Tò sày tò mủa": [
+        "Cùng cô nô đùa "
+    ],
+    "Tẩư co phượng đeng": [
+        "Dưới gốc phượng đỏ "
+    ],
+    "Ăn bát ra chơi": [
+        "Mỗi giờ ra chơi"
+    ],
+    "ăn": [
+        "cái"
+    ],
+    "bát": [
+        "giờ"
+    ],
+    "ra chơi": [
+        "ra chơi"
+    ],
+    "tèo ": [
+        "lại"
+    ],
+    "Vận lủm mừa cón": [
+        "Vẫn như ngày xưa "
+    ],
+    "Ăn lều eng bó đay lai": [
+        "Một căn lều đơn sơ "
+    ],
+    "Dú nọoc đông chay sàng": [
+        "Nơi bìa rừng hẻo lánh"
+    ],
+    "Đảy kí súc hất pần": [
+        "Được các chú dựng tạm"
+    ],
+    "Pần pá nòn ai lăng": [
+        "Thành nơi chú nghỉ ngơi"
+    ],
+    "Ngẩng hua là pha vằn pjước": [
+        "Ngẩng đầu là mây trắng "
+    ],
+    "Cẩm hua là tâm là lộc": [
+        "Cúi đầu là đất đỏ "
+    ],
+    "Xung quanh là mạy muồng": [
+        "Xung quanh là cây cối"
+    ],
+    "Dú sửâ kí tua cần": [
+        "Cái nồi đít đen xì "
+    ],
+    "Ăn mỏ cuổn đăm nhám": [
+        "Nằm im bên bếp củi"
+    ],
+    "Nòn tình tích cằn kiềng ": [
+        "Chiếc võng vải màu xanh"
+    ],
+    "Tháy ăn slang Súc nòn": [
+        "Thay cái giường chú nằm"
+    ],
+    "Tời cần dú pá nẩy  ": [
+        "Cuộc sống ở nơi đây "
+    ],
+    "Tuy hơi thiểu hơi khỏ": [
+        "Tuy có nhiều thiếu thốn "
+    ],
+    "Tà kí Súc bộ đội": [
+        "Nhưng các chú bộ đội "
+    ],
+    "Nhiệt huyết vẫn đông đầy ": [
+        "Nhiệt huyết vẫn đong đầy"
+    ],
+    "Dù lai dờng khỏ sở": [
+        "Dù muôn vàn khó khăn "
+    ],
+    "Tà kí Súc vận hất": [
+        "Nhưng các chú vẫn cố "
+    ],
+    "Hất tốt kí nhiệm vụ": [
+        "Hoàn thành tốt nhiệm vụ"
+    ],
+    "Bảo vệ vùng biên giới": [
+        "Bảo vệ vùng biên giới"
+    ],
+    "Mè ới méo lục": [
+        "Mẹ ơi mèo nhỏ"
+    ],
+    "Hất căng dú đai": [
+        "Sao mà thảnh thơi"
+    ],
+    "Bó slài hất căng": [
+        "Ăn xong liền ngủ"
+    ],
+    "kin xoong tèo nòn": [
+        "Dậy rồi lại chơi"
+    ],
+    "Mè ới tua cần": [
+        "Mẹ ơi con người"
+    ],
+    "Mè ới": [
+        "Mẹ ơi"
+    ],
+    "tua cần": [
+        "C  on người"
+    ],
+    "Hất căng tèo khỏ": [
+        "Sao mà bận rộn"
+    ],
+    "Hất công cá pi": [
+        "Làm việc quanh năm"
+    ],
+    "Bó đảy nghỉ tắc dắp": [
+        "Chẳng được nghỉ ngơi"
+    ],
+    "Lai lúc lục nẳm": [
+        "Nhiều khi con ước"
+    ],
+    "Đảy lủm méo lục": [
+        "Được làm mèo con"
+    ],
+    "Cuổn mần nỏn": [
+        "Cuộn tròn nằm ngủ"
+    ],
+    "Cằn kiềng phầy thẩu": [
+        "Bên bếp lửa hồng"
+    ],
+    "Bó slài nẳm lăng": [
+        "Chẳng cần bận tâm"
+    ],
+    "Dú nọoc pầy nầư": [
+        "Bên ngoài cuộc sống"
+    ],
+    "Cứ thế xoay vòng": [
+        "Cứ thế xoay vòng"
+    ],
+    "Cuống quýt hối hả": [
+        "Cuống quýt hối hả"
+    ],
+    "kin nặm ngọt": [
+        "uống nước ngọt"
+    ],
+    "kin nặm cắt": [
+        "uống nước lạnh"
+    ],
+    "me": [
+        "bà cô"
+    ],
+    "chin": [
+        "con dơi"
+    ],
+    "mừa": [
+        "về thôi nhé"
+    ],
+    "chư": [
+        "phải rồi"
+    ],
+    "Mjạc": [
+        "ôi"
+    ],
+    "ý ngòi": [
+        "lo liệu"
+    ],
+    "phẳn": [
+        "bát to"
+    ],
+
+    "slướng": [
+        "khoe"
+    ],
+    "hết fiệc": [
+        "làm việc khỏe"
+    ],
+    "cư": [
+        "muối"
+    ],
+    "slày lẩy mo": [
+        "ngày thầy thuốc"
+    ],
+    "quay": [
+        "xa"
+    ],
+    "xảu": [
+        "xấu"
+    ],
+    "vằng": [
+        "vực"
+    ],
+    "fi": [
+        "chuồn chuồn"
+    ],
+    "phi": [
+        "ma"
+    ],
+    "mí": [
+        "không"
+    ],
+    "bản": [
+        "làng"
+    ],
+    "ngòi": [
+        "trông"
+    ],
+    "nghiềng": [
+        "nghiêng"
+    ],
+    "fon": [
+        "vôi"
+    ],
+    "phải": [
+        "vải"
+    ],
+    "qua": [
+        "dưa"
+    ],
+    "hãn": [
+        "thấy"
+    ],
+    "lai": [
+        "có nhiều"
+    ],
+    "mạ": [
+        "ngựa"
+    ],
+    "mả": [
+        "lớn lên"
+    ],
+    "ma": [
+        "thôi miên"
+    ],
+    "má": [
+        "ngâm"
+    ],
+    "pây liêu": [
+        "muốn đi chơi"
+    ],
+    "chin mác rèo năm mạy": [
+        "muốn ăn quả thì phải trồng cây"
+    ],
+    "thâng nèn": [
+        "sắp đến tết"
+    ],
+    "thâng rườn": [
+        "gần đến nhà"
+    ],
+    "ải chải cật lực": [
+        "làm cật lực"
+    ],
+    "slấc": [
+        "giặc độc ác"
+    ],
+    "au châư thở": [
+        "làm không kịp thở"
+    ],
+    "au lường hóng mát": [
+        "ngồi cửa sổ hóng mát"
+    ],
+    "tầư lồm đảng": [
+        "bị trúng gió lạnh"
+    ],
+    "bấu oóc pác": [
+        "ho không ra tiếng"
+    ],
+    "da": [
+        "thuốc ho"
+    ],
+    "tông nà": [
+        "bạt ngàn"
+    ],
+    "Oóc": [
+        "không thông minh"
+    ],
+    "slính": [
+        "dâng"
+    ],
+    "khửn cò": [
+        "cơn tức dâng lên tận cổ"
+    ],
+    "bươn": [
+        "tháng"
+    ],
+    "pày": [
+        "thường khi"
+    ],
+    "nặm chè": [
+        "ấm nước chè"
+    ],
+    "chếp": [
+        "đau ngực"
+    ],
+    "đảy păn ám": [
+        "được chia phần tốt"
+    ],
+    "chèn": [
+        "tiền"
+    ],
+    "ngòi lẹo": [
+        "ước lượng"
+    ],
+    "ngòi lẹo kỉ lai chèn": [
+        "ước lượng xem hết bao nhiêu tiền"
+    ],
+    "te pây thâng dá": [
+        "tính ra nó đã đến nơi rồi"
+    ],
+    "đúc": [
+        "hầm"
+    ],
+    "hẩư tư": [
+        "ninh cho nhừ"
+    ],
+    "cần bả": [
+        "người dại dột"
+    ],
+    "cần": [
+        "người"
+    ],
+    "mì lai rườn": [
+        "bản có nhiều nhà"
+    ],
+    "slửa": [
+        "áo mỏng"
+    ],
+    "nả": [
+        "mếu"
+    ],
+    "pền": [
+        "nhọt"
+    ],
+    "xe mạ": [
+        "bánh xe ngựa"
+    ],
+    "xỏn": [
+        "cái vợt"
+    ],
+    "vín": [
+        "quay"
+    ],
+    "châư": [
+        "ngạt thở"
+    ],
+    "sluôn": [
+        "vườn ngô"
+    ],
+    "khai": [
+        "đắt"
+    ],
+    "cúa": [
+        "quý"
+    ],
+    "toọng": [
+        "phình"
+    ],
+    "mừ nắm hết tọ pác": [
+        "tay không làm nhưng miệng chê bai"
+    ],
+    "cò thai": [
+        "bóp cổ chết"
+    ],
+    "hâư": [
+        "nơi nào"
+    ],
+    "pù pài": [
+        "đồi núi"
+    ],
+    "dú": [
+        "sống ở"
+    ],
+    "pẻng": [
+        "bột làm bánh"
+    ],
+    "bưa": [
+        "duốc"
+    ],
+    "dú hăn": [
+        "ở một mình"
+    ],
+    "nó": [
+        "nảy chồi"
+    ],
+    "mạy bâư": [
+        "cây mọc lá"
+    ],
+    "mỏ toòng": [
+        "nồi đồng lõm"
+    ],
+    "khuốp pi slíp nhi": [
+        "một năm mười hai tháng"
+    ],
+    "xảng": [
+        "bên cạnh"
+    ],
+    "phía bắc": [
+        "bắc"
+    ],
+    "phuối": [
+        "nói lắp"
+    ],
+    "nả đăm bặng nả": [
+        "mặt đen như mặt quạ"
+    ],
+    "phắc": [
+        "quả núc nác"
+    ],
+    "Co mạy": [
+        "gốc cây núc nác"
+    ],
+    "tuyện": [
+        "câu chuyện"
+    ],
+    "tua ma": [
+        "cái con chó này"
+    ],
+    "Chạn bặng": [
+        "lười biếng"
+    ],
+    "trẻ bị bệnh cam": [
+        "Đếch pền"
+    ],
+    "khêm": [
+        "mũi chỉ"
+    ],
+    "tàng": [
+        "đường đi"
+    ],
+    "cằm kha": [
+        "đi bộ"
+    ],
+    "pền tuyện": [
+        "dựng chuyện"
+    ],
+    "tẳng": [
+        "cả"
+    ],
+    " khẻo": [
+        "hàm răng"
+    ],
+    "duốc": [
+        "bẹ chuối"
+    ],
+    "tầư lồm đảng men cò": [
+        "gặp gió lạnh bị khản tiếng"
+    ],
+    "lân": [
+        "cũ kĩ"
+    ],
+    "hết nèm lổi": [
+        "làm theo kiểu ngày xưa"
+    ],
+    "tha toòng bặng tha": [
+        "mắt sáng như mắt cú mèo"
+    ],
+    "sáng sủa": [
+        "lủng roàng"
+    ],
+    "khuôn mặt": [
+        "tha nả"
+    ],
+    "tha nả lủng roàng": [
+        "khuôn mặt sáng sủa"
+    ],
+    "téng": [
+        "chờ"
+    ],
+    "cảng": [
+        "con vượn"
+    ],
+    "hươn": [
+        "hơn"
+    ],
+    "slung": [
+        "cao"
+    ],
+    "pửa tấư": [
+        "khi nào"
+    ],
+    "rèng": [
+        "khỏe"
+    ],
+    "ngài": [
+        "bữa ăn trưa"
+    ],
+    "mại dè": [
+        "ăn đi"
+    ],
+    "kin": [
+        "ăn"
+    ],
+    "ám kin": [
+        "miếng ăn"
+    ],
+    "tò cheng ám kin": [
+        "tranh giành địa vị"
+    ],
+    "d'i": [
+        "vừa"
+    ],
+    "cò kheng": [
+        "cứng rắn"
+    ],
+    "pẹp": [
+        "khung"
+    ],
+    "đang": [
+        "thân"
+    ],
+    " pây tầư": [
+        "đi đâu"
+    ],
+    "chắc kin": [
+        "Sành ăn"
+    ],
+    "hăn": [
+        "thấy"
+    ],
+    "dac": [
+        "đói"
+    ],
+    "Kin ám quặp": [
+        "ăn uống lãng phí"
+    ],
+    "ám quặp": [
+        "lãng phí"
+    ],
+    "lồng": [
+        "xuống"
+    ],
+    "nhang": [
+        "làm lễ cúng"
+    ],
+    "ái slưởng": [
+        "định"
+    ],
+    "ảo màn": [
+        "cả gan"
+    ],
+    "sắc": [
+        "chăm"
+    ],
+    "hết": [
+        "làm"
+    ],
+    " tẳng": [
+        "tất cả"
+    ],
+    "tằng rườn cọn lếch": [
+        "cả nhà làm thợ rèn"
+    ],
+    "tẳng rườn": [
+        "dựng nhà"
+    ],
+    "tặt": [
+        "đặt"
+    ],
+    "bjai nhả": [
+        "làm cỏ"
+    ],
+    "nghẻ nà": [
+        "nông nghiệp"
+    ],
+    "ải chải": [
+        "hết sức"
+    ],
+    "náo": [
+        "mới"
+    ],
+    "náo mì": [
+        "mới có"
+    ],
+    "a rổi": [
+        "ái chà"
+    ],
+    "máy bay": [
+        "máy bay"
+    ],
+    "xe tăng": [
+        "xe tăng"
+    ],
+    "trực thăng": [
+        "trực thăng"
+    ],
+    "chủa": [
+        "chủ"
+    ],
+    "ngòi khẩu": [
+        "nhìn vào"
+    ],
+    "ngòi rườn": [
+        "trông nhà "
+    ],
+    "cốc cai": [
+        "chủ tịch"
+    ],
+    "slảnh": [
+        "tỉnh"
+    ],
+    "chẩu châư": [
+        "tự chủ "
+    ],
+    "nhỉ cốc cai huện": [
+        "phó chủ tịch huyện"
+    ],
+    "huện": [
+        "huyện"
+    ],
+    "nhỉ": [
+        "phó"
+    ],
+    "nhỉ cốc cai": [
+        "phó chủ tịch"
+    ],
+    "xạ": [
+        "xã"
+    ],
+    "tát nặm": [
+        "thác nước"
+    ],
+    "nhoòng": [
+        "nhờ"
+    ],
+    "slíc": [
+        "cầu rửa"
+    ],
+    "táp": [
+        "dán"
+    ],
+    "chắp": [
+        "đậu"
+    ],
+    "poọc": [
+        "bọc"
+    ],
+    "chép": [
+        "chép"
+    ],
+    "nẳm slưởng": [
+        "suy nghĩ"
+    ],
+    "từ điển": [
+        "từ điển"
+    ],
+    "mường bản": [
+        "thôn xóm"
+    ],
+    "mường Hác": [
+        "nước trung Quốc"
+    ],
+    "mường Fan": [
+        "nước pháp"
+    ],
+    "việt nam": [
+        "việt nam"
+    ],
+    "Vệt Nam": [
+        "Việt Nam"
+    ],
+    "mường Ing": [
+        "nước Anh"
+    ],
+    "mường Thày": [
+        "nước Thái Lan"
+    ],
+    "bó lếch": [
+        "mỏ sắt"
+    ],
+    "bó tồng": [
+        "mỏ đồng"
+    ],
+    "nước sôi": [
+        "nặm phật"
+    ],
+    "phật": [
+        "sôi"
+    ],
+    "nặm bó": [
+        "giếng nước"
+    ],
+    "củ pác khan": [
+        "cất tiếng đáp"
+    ],
+    "slim ngoòng ngầư": [
+        "lòng mong ước"
+    ],
+    "tài tảm": [
+        "dũng cảm"
+    ],
+    "cốc": [
+        "gốc"
+    ],
+    "soòng hà": [
+        "xấp xỉ"
+    ],
+    "tạng nguyên": [
+        "trạng nguyên"
+    ],
+    "khuý mạ": [
+        "cưỡi ngựa"
+    ],
+    "khuý": [
+        "cưỡi"
+    ],
+    "rạ rạ": [
+        "rào rào"
+    ],
+    "tặt hế": [
+        "đặt làm"
+    ],
+    "tức slấc": [
+        "đánh giặc"
+    ],
+    "tơi lăng": [
+        "đời sau"
+    ],
+    "pây tẻo ngài": [
+        "đi lại dễ dàng"
+    ],
+    "pjót": [
+        "vượt qua"
+    ],
+    "pi noọng": [
+        "anh em"
+    ],
+    "vằn khay cón": [
+        "ngày khai mạc"
+    ],
+    "càm tằng": [
+        "đi theo đường"
+    ],
+    "pày nâng them": [
+        "một lần nữa"
+    ],
+    "chang đin": [
+        "giữa vùng đất"
+    ],
+    "ti phương": [
+        "địa phương"
+    ],
+    "chồm phuông": [
+        "du lịch"
+    ],
+    "lán": [
+        "thiêng"
+    ],
+    "queng tỉ": [
+        "xung quanh đó"
+    ],
+    "tẩư tin kéo": [
+        "dưới chân dèo"
+    ],
+    "hắp phai": [
+        "đắp đập"
+    ],
+    "chồm phuông khau khuổi": [
+        "du lịch sinh thái"
+    ],
+    "khau khuổi": [
+        "sinh thái"
+    ],
+    "Lồm khau phja": [
+        "gió ngàn"
+    ],
+    "cúa thư hết công": [
+        "công cụ lao động cầm tay"
+    ],
+    "mòn hết slướng": [
+        "đồ trang sức"
+    ],
+    "pưn nả": [
+        "tên nỏ"
+    ],
+    "mảc nhặc": [
+        "đinh ba"
+    ],
+    "mẳc pjạ": [
+        "con dao"
+    ],
+    "xá": [
+        "gác bếp"
+    ],
+    "thẳm": [
+        "hang"
+    ],
+    "mjèm mừ": [
+        "vòng đeo tay"
+    ],
+    "nịu xu": [
+        "hoa tai"
+    ],
+    "tua cúa chang đông": [
+        "thú rừng"
+    ],
+    "khay slim": [
+        "chân thành"
+    ],
+    "dung dang": [
+        "vui mừng"
+    ],
+    "Ch’i ch’ai": [
+        "thong thả"
+    ],
+    "Chướng chửc": [
+        "gìn giữ"
+    ],
+    "Lục pjai": [
+        "con út"
+    ],
+    "pjai": [
+        "út"
+    ],
+    "m’ang": [
+        "mải mê"
+    ],
+    "Dí dà": [
+        "ôi dà"
+    ],
+    "Chò slim": [
+        "động viên"
+    ],
+    "L’ươc": [
+        "chọn"
+    ],
+    "kỷ fiệc": [
+        "một số việc"
+    ],
+    "pang": [
+        "giúp"
+    ],
+    "ái": [
+        "muốn"
+    ],
+    "ái pây": [
+        "muốn đi"
+    ],
+    "oóc noọc pây": [
+        "ra ngoài đi"
+    ],
+    "noọc": [
+        "ngoài"
+    ],
+    "oóc": [
+        "ra"
+    ],
+    "dá": [
+        "rồi"
+    ],
+    "đế": [
+        "đã"
+    ],
+    "xẹ": [
+        "sẽ"
+    ],
+    "pây slam": [
+        "đi hỏi"
+    ],
+    "hết": [
+        "xây"
+    ],
+    "chin ím chắng mì lèng": [
+        "ăn no mới khoẻ"
+    ],
+    "mì chèn chắng hết rườn": [
+        "có tiền sẽ xây nhà"
+    ],
+    "tỉ": [
+        "vị trí"
+    ],
+    "pạng bưởng": [
+        "phương hướng"
+    ],
+    "bưởng": [
+        "hướng"
+    ],
+    "bưởng Hác": [
+        "hướng Bắc"
+    ],
+    "bưởng Keo": [
+        "hướng nam"
+    ],
+    "bưởng tha vằn tứn": [
+        "hướng đông"
+    ],
+    "bường than vằn nòn": [
+        "hướng tây"
+    ],
+    "bưởng nả": [
+        "phía trước"
+    ],
+    "bưởng lăng": [
+        "phía sau"
+    ],
+    "bưởng dại": [
+        "bên phải"
+    ],
+    "bưởng xóa": [
+        "bên trái"
+    ],
+    "nưa": [
+        "bên trên"
+    ],
+    "tâử": [
+        "bên dưới"
+    ],
+    "nận": [
+        "bên trong"
+    ],
+    "noọc": [
+        "bên ngoài"
+    ],
+    "tói nả": [
+        "đối diện"
+    ],
+    "ngậu quỷ phi pjài": [
+        "nhất quỷ nhì ma thứ ba học trò"
+    ],
+    "khăn roọng": [
+        "hót"
+    ],
+    "kha tàng": [
+        "ngả đường"
+    ],
+    "phua mìa": [
+        "vợ chồng"
+    ],
+    "cần điếp": [
+        "người yêu"
+    ],
+    "xáu đin rườn": [
+        "với nhà nước"
+    ],
+    "mạnh lèng": [
+        "Khỏe mạnh"
+    ],
+    "kheng khứn": [
+        "cứng cáp"
+    ],
+    "khua khước": [
+        "Cười vui"
+    ],
+    "slắng": [
+        "Dặn dò"
+    ],
+    "thất mừa": [
+        "Quay về"
+    ],
+    "pjạc mừ": [
+        "Chia tay"
+    ],
+    "khửn tàng": [
+        "lên đường"
+    ],
+    "bjoóc phông lường": [
+        "hoa nở rộ"
+    ],
+    "co lì": [
+        "Cây lê"
+    ],
+    "co mặn": [
+        "Cây mận"
+    ],
+    "co": [
+        "cây"
+    ],
+    "co tào": [
+        "Cây đào"
+    ],
+    "on ún": [
+        "ấm áp"
+    ],
+    "lồm phè phè": [
+        "Gió hiu hiu"
+    ],
+    "và nâng": [
+        "Một sải tay"
+    ],
+    "pù khau": [
+        "Ngọn núi"
+    ],
+    "nghịa vụ": [
+        "nghĩa vụ"
+    ],
+    "pi mấư": [
+        "năm mới"
+    ],
+    "boỏng tàng": [
+        "nẻo đường"
+    ],
+    "cằn thôm": [
+        "bờ ao"
+    ],
+    "xảng bản": [
+        "cạnh bản"
+    ],
+    "dường đảy kí": [
+        "kỉ niệm"
+    ],
+    "lính": [
+        "lính"
+    ],
+    "tọn tặp": [
+        "Dọn dẹp"
+    ],
+    "puồi lum nặm": [
+        "Lấp vũng nước"
+    ],
+    "tàng pây": [
+        "Đường đi"
+    ],
+    "oóc coỏng bản": [
+        "Ra sân bản"
+    ],
+    "slẳm": [
+        "Bẩn"
+    ],
+    "n'ăm mạy": [
+        "Trồng cây"
+    ],
+    "khảm tàng": [
+        "Qua đường"
+    ],
+    "hoan hí": [
+        "Vui vẻ"
+    ],
+    "l'ao phèn": [
+        "Thuốc phiện"
+    ],
+    "dặn": [
+        "Nghiện"
+    ],
+    "pền bả": [
+        "Điên"
+    ],
+    "nòn pạng boóc điểu": [
+        "nằm cạnh ống điếu"
+    ],
+    "nòn pạng": [
+        "nằm cạnh"
+    ],
+    "bưa khẩu nua khao": [
+        "bột nếp"
+    ],
+    "thai": [
+        "chết"
+    ],
+    "tồng cạ": [
+        "giống như"
+    ],
+    "muối da": [
+        "viên thuốc"
+    ],
+    "cần loá": [
+        "người xấu"
+    ],
+    "slỉnh tình": [
+        "cảnh giác"
+    ],
+    "ni quây": [
+        "tránh xa"
+    ],
+    "mí đo khẩu kin": [
+        "không đủ cơm ăn"
+    ],
+    "rườn lang khỏ khát": [
+        "gia đình khó khăn"
+    ],
+    "bố đảy slon slư": [
+        "không được học hành"
+    ],
+    "cháp mừ": [
+        "gang tay"
+    ],
+    "Slíu": [
+        "đục"
+    ],
+    "hua luồng": [
+        "đầu rồng"
+    ],
+    "slai": [
+        "dây"
+    ],
+    "lời hát then": [
+        "cằm then"
+    ],
+    "xáu": [
+        "cùng"
+    ],
+    "t'inh": [
+        "nghe"
+    ],
+    "kỳ yên": [
+        "giải hạn"
+    ],
+    "phải mọn": [
+        "tơ tằm"
+    ],
+    "vằn slíp hả": [
+        "ngày rằm"
+    ],
+    "ngám khuốp": [
+        "một năm tuổi"
+    ],
+    "t'ông nà": [
+        "cánh đồng"
+    ],
+    "chồm hội": [
+        "dự hội"
+    ],
+    "mạy muồi": [
+        "cây mai"
+    ],
+    "slung quá pù rườn": [
+        "cao quá mái nhà"
+    ],
+    "pjai mạy": [
+        "ngọn cây"
+    ],
+    "khót mồn": [
+        "khoanh tròn"
+    ],
+    "táp chỉa đeng": [
+        "dán giấy đỏ"
+    ],
+    "tọt còn": [
+        "tung còn"
+    ],
+    "tò lân": [
+        "múa lân"
+    ],
+    "tò": [
+        "múa"
+    ],
+    "tức sáng": [
+        "đánh cù"
+    ],
+    "tức yến": [
+        "đánh yến"
+    ],
+    "slấn đông": [
+        "thần rừng"
+    ],
+    "slấn nà": [
+        "thần ruộng"
+    ],
+    "slấn bản": [
+        "hoàng làng"
+    ],
+    "khửn rườn": [
+        "lên nhà"
+    ],
+    "khửn": [
+        "lên"
+    ],
+    "mạy diển": [
+        "gỗ nghiến"
+    ],
+    "vang": [
+        "gian"
+    ],
+    "phòn phầy": [
+        "bếp lửa"
+    ],
+    "rạn": [
+        " gác"
+    ],
+    "coóc tẩư": [
+        "góc dưới"
+    ],
+    "cuôi": [
+        "sọt"
+    ],
+    "cợi": [
+        "tầng"
+    ],
+    "hung hang": [
+        "nấu ăn"
+    ],
+    "ngài": [
+        "cơm trưa"
+    ],
+    "pjầu": [
+        "cơm tối"
+    ],
+    "pjái phjục": [
+        "trải chiếu"
+    ],
+    "nghé lừa": [
+        "chiếc thuyền"
+    ],
+    "liêu": [
+        "chơi"
+    ],
+    "vải": [
+        "chèo"
+    ],
+    "nựa pỉnh": [
+        "thịt nướng"
+    ],
+    "đán": [
+        "vách đá"
+    ],
+    "khoái khoái": [
+        "nhanh nhanh"
+    ],
+    "khoái": [
+        "nhanh"
+    ],
+    "phắng": [
+        "bờ"
+    ],
+    "cạm lính": [
+        "đèo dốc"
+    ],
+    "lồng lính": [
+        "xuống dốc"
+    ],
+    "ngoạc mà": [
+        "quay lại"
+    ],
+    "cổm hua": [
+        "cúi đầu"
+    ],
+    "pạng lăng": [
+        "đằng sau"]
+
+
+
 }
