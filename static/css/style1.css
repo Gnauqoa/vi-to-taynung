@@ -35,7 +35,6 @@ html {
 
 /* Header */
 .header {
-
   color: white;
   text-align: center;
   box-sizing: border-box;
@@ -50,9 +49,10 @@ html {
 }
 
 .theme {
-  height: 22.867vh;
-  background: url(/static/imgs/T.png) no-repeat center / cover;
-  display: block;
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  display: flex;
 }
 
 #nav {
