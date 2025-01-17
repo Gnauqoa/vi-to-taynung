@@ -35,7 +35,7 @@ html {
 
 /* Header */
 .header {
-  padding: 0px 320px 0px 320px;
+
   color: white;
   text-align: center;
   box-sizing: border-box;
@@ -191,7 +191,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 35px 50px;
-  width: 1080px;
+  width: 75%;
   text-align: center;
   /* margin-top: auto; */
 }
